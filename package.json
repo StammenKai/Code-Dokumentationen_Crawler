@@ -1,0 +1,17 @@
+{
+  "name": "code-dokumentationen-crawler",
+  "version": "1.0.0",
+  "description": "Crawl documentation URLs → Markdown/PDF → Anthropic Files API knowledge base",
+  "main": "src/index.js",
+  "scripts": {
+    "crawl": "node src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "puppeteer": "^22.0.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.3"
+  }
+}
